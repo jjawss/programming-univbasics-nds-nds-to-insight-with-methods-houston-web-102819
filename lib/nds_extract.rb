@@ -30,7 +30,7 @@ end
 def gross_for_director(director_data)
   column_index = 0 
   row_index = 0
-  total += director_data[:worldwide_gross][row_index]
+  total += director_data[row_index]
 end
 
 
