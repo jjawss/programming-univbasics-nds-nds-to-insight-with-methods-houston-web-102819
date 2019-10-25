@@ -28,10 +28,14 @@ end
 
 #KEY WORD, RETURN INTEGER
 def gross_for_director(director_data)
-  p director_data
+  i = 0 
+  while i < [:movies].length
+    
 end
 
 
+
+#p director_data => see below
 #expected: 1357566430
 #got: {:movies=>[{:release_year=>1975, :studio=>"Universal", :title=>"Jaws", :worldwide_gross=>260000000}, ...studio=>"Buena Vista", :title=>"Lincoln", :worldwide_gross=>182207973}], :name=>"Stephen Spielberg"}
 
