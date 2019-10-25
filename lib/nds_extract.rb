@@ -32,11 +32,8 @@ def gross_for_director(director_data)
   while row_index < director_data.length
     column_index = 0
     total = 0
-    while column_index < director_data[row_index][:movies].length
-      total += director_data[row_index][:movies][column_index][:worldwide_gross]
-      column_index += 1
-    end
-    row_index += 1
+    total += director_data[row_index][:movies][column_index][:worldwide_gross]
+    column_index += 1
   end
   return total
 end
