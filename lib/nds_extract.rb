@@ -28,6 +28,8 @@ end
 
 #KEY WORD, RETURN INTEGER
 def gross_for_director(director_data)
+  column_index = 0 
+  row_index = 0
   total += director_data[row_index][:movies][column_index][:worldwide_gross]
   end
 end
