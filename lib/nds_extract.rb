@@ -30,10 +30,9 @@ end
 def gross_for_director(director_data)
   row_index = 0
   while row_index < director_data.length
-    first_director_hash = director_data[row_index]
+    puts first_director_hash = director_data[row_index]
     row_index += 1
   end
-  return first_director_hash
 end
 
 
