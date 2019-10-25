@@ -32,7 +32,7 @@ def gross_for_director(director_data)
   while row_index < director_data.length
     column_index = 0
     total = 0
-    total += director_data[row_index][:worldwide_gross]
+    total += director_data[row_index]
     column_index += 1
   end
   return total
