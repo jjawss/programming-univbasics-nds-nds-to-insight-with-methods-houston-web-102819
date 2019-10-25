@@ -29,8 +29,9 @@ end
 #KEY WORD, RETURN INTEGER
 def gross_for_director(director_data)
   i = 0 
+  total = 0
   while i < [:movies].length
-    
+    total += 
 end
 
 
