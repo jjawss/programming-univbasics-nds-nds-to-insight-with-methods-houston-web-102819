@@ -26,11 +26,10 @@ end
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
 
+#KEY WORD, RETURN INTEGER
 def gross_for_director(director_data)
-    result = {}
   row_index = 0
   while row_index < director_data.length
-    director = director_data[row_index][:name]
     column_index = 0
     total = 0
     while column_index < director_data[row_index][:movies].length
@@ -38,11 +37,14 @@ def gross_for_director(director_data)
       column_index += 1
     end
     row_index += 1
-    result[director] = total
   end
-  puts result
-  return result
+  return total
 end
+
+
+
+
+
 
 #def directors_totals(nds)
   #result = {}
