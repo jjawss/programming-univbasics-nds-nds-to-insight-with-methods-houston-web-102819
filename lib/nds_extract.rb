@@ -28,13 +28,14 @@ end
 
 #KEY WORD, RETURN INTEGER
 def gross_for_director(director_data)
-  row_index = 0
-  while row_index < director_data.length
-    total = 0
-    total += director_data[row_index]
-    row_index += 1
-  end
-  return total
+  puts director_data
+  #row_index = 0
+  #while row_index < director_data.length
+    #total = 0
+    #total += director_data[row_index]
+    #row_index += 1
+  #end
+  #return total
 end
 
 
