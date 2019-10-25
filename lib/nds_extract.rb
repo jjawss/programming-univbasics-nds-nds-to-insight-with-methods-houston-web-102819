@@ -28,9 +28,7 @@ end
 
 #KEY WORD, RETURN INTEGER
 def gross_for_director(director_data)
-  column_index = 0 
-  row_index = 0
-  total += director_data[row_index]
+  p director_data
 end
 
 
