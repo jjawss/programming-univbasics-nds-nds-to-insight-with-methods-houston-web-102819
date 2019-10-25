@@ -30,10 +30,9 @@ end
 def gross_for_director(director_data)
   row_index = 0
   while row_index < director_data.length
-    column_index = 0
     total = 0
     total += director_data[row_index]
-    column_index += 1
+    row_index += 1
   end
   return total
 end
