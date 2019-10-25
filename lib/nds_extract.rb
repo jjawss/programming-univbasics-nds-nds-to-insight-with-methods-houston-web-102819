@@ -28,10 +28,7 @@ end
 
 #KEY WORD, RETURN INTEGER
 def gross_for_director(director_data)
-  row_index = 0
-  while row_index < director_data.length
-    puts first_director_hash = director_data[row_index]
-    row_index += 1
+  total += director_data[row_index][:movies][column_index][:worldwide_gross]
   end
 end
 
